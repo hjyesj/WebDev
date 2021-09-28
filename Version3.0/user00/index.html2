@@ -1,26 +1,9 @@
-<html lang="en">
-<!--Version 4.0 
-	Name:
-	Date Completed:
-    -->
-
-<head>
-
-    <title>Web Development User #05</title>
-
-</head>
-
-<body>
-
-    <center>My name is Trey</center>
-
-</body>
 <!DOCTYPE html>
 <html lang="en">
 <!--Version 4.0
-            Name:
-            Date Completed:
-        -->
+        Name:
+        Date Completed:
+    -->
 
 <head>
 
@@ -98,48 +81,46 @@
         <!-- Edit this line for the title of your page -->
 
         <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Put your content below this line ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
-        <h3 id="topHeading">I'm The Football Lover</h3>
+        <h3 id="topHeading">I'm a Web Developer</h3>
         <table id="hireButtons">
             <tr>
                 <td>
-                    <button class="button">Best Cards</button>
+                    <button>Hire me</button>
                 </td>
                 <td>
-                    <button class="button">Cheapest Cards</button>
+                    <button class="button">Hire me</button>
                 </td>
                 <td>
-                    <button class="button button1">Rarest Cards</button>
+                    <button class="button button1">Hire me</button>
                 </td>
                 <td>
-                    <button class="button button2">Best Jerseys</button>
-                </td>
-                <td>
-                     <button class="button button2 black">Most Spendy jersey to Least</button>
+                    <button class="button button2">Hire me</button>
                 </td>
             </tr>
             <tr>
                 <td>
-               </td>
-                <td>
-                    <button-large ></button-large>
+                    <button class="button button2 red">Hire me</button>
                 </td>
                 <td>
-                    <button></button>
+                    <!-- New button 1 here-->
                 </td>
                 <td>
-                    <button></button>
+                    <!-- New button 2 here-->
+                </td>
+                <td>
+                    <!-- New button 3 here-->
                 </td>
             </tr>
         </table>
         <div style="padding-top: 5px;">
             <!-- spacing div-->
 
-            <span class="title">Cards Backgrounds </span>
+            <span class="title">Example of a Heading Title</span>
 
             <div class="content">
 
                 <p>
-                    All the things i enjoy that have to do with football.
+                    Page content..
                 </p>
 
                 <p>
@@ -148,17 +129,16 @@
 
             </div>
 
-        <span class="title title-large">Football Cards And Jerseys</span>
-           
-        <p id="morecontent">
-                My Collection
+            <p id="morecontent">
+                Even more content
             </p>
+
             <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Make sure all your content is above this line ↑↑↑↑↑↑↑↑↑-->
     </main>
 
     <!---------------------------------- Begin the footer ------------->
     <footer>
-        <span class="title">My Prized Cards and Jerseys</span>
+        <span class="title">Example of a Footer Title</span>
         <table id="footerTable">
             <tr>
                 <td>
@@ -175,7 +155,5 @@
     </footer>
     <!---------------------------------- End the footer ------------->
 </body>
-
-</html>
 
 </html>
