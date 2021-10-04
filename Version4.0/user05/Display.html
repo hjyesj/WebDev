@@ -1,30 +1,13 @@
+<!DOCTYPE html>
 <html lang="en">
-<!--Version 4.0 
-	Name:
-	Date Completed:
+<!--Version 4.0
+        Name:
+        Date Completed:
     -->
 
 <head>
 
-    <title>Web Development User #05</title>
-
-</head>
-
-<body>
-
-    <center>My name is Trey</center>
-
-</body>
-<!DOCTYPE html>
-<html lang="en">
-<!--Version 4.0
-            Name:
-            Date Completed:
-        -->
-
-<head>
-
-    <title>Hire Me For Your Web Development Needs</title>
+    <title>Cards for sale</title>
 
     <!-- Meta -->
     <meta charset="utf-8">
@@ -51,8 +34,8 @@
     <!-- Custom styles for this template -->
     <style type="text/css">
         menu {
-            margin: 0;
-            padding: 0;
+            margin: 6;
+            padding: 8;
         }
 
         .wideMargin {
@@ -60,8 +43,36 @@
         }
 
         footer {
-            font-size: 12px;
+            font-size: 20px;
             text-align: center;
+        }
+
+        .card {
+            display: inline;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            width: 32%;
+            margin-bottom: .6em;
+        }
+
+
+
+        .card:hover {
+            box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.938);
+        }
+
+        .nameplate {
+            font-size: 2vw;
+            padding: 6px 10px;
+            font-size: 1vw;
+        }
+
+        .paragraph {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .orange {
+            color: rgb(212, 0, 255);
         }
     </style>
 </head>
@@ -78,8 +89,8 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav">
                     <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Edit These Items in your Menu ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="display.html" class="nav-item nav-link">Display</a>
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="display.html" class="nav-item nav-link active">Display</a>
                     <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
                     <a href="gallery.html" class="nav-item nav-link">Gallery</a>
                     <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Edit These Items in your Menu ↑↑↑↑↑↑↑↑↑↑↑↑↑↑-->
@@ -94,71 +105,50 @@
 
     <main class="wideMargin">
 
-        <h1 class="text-left my-3 title" tabindex="0">Check out my work!</h1>
+        <h1 class="text-left my-3 title" tabindex="0">Hiring Page</h1>
         <!-- Edit this line for the title of your page -->
 
         <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Put your content below this line ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
-        <h3 id="topHeading">I'm The Football Lover</h3>
-        <table id="hireButtons">
-            <tr>
-                <td>
-                    <button class="button">Best Cards</button>
-                </td>
-                <td>
-                    <button class="button">Cheapest Cards</button>
-                </td>
-                <td>
-                    <button class="button button1">Rarest Cards</button>
-                </td>
-                <td>
-                    <button class="button button2">Best Jerseys</button>
-                </td>
-                <td>
-                     <button class="button button2 black">Most Spendy jersey to Least</button>
-                </td>
-            </tr>
-            <tr>
-                <td>
-               </td>
-                <td>
-                    <button-large ></button-large>
-                </td>
-                <td>
-                    <button></button>
-                </td>
-                <td>
-                    <button></button>
-                </td>
-            </tr>
-        </table>
-        <div style="padding-top: 5px;">
-            <!-- spacing div-->
-
-            <span class="title">Cards Backgrounds </span>
-
-            <div class="content">
-
-                <p>
-                    All the things i enjoy that have to do with football.
-                </p>
-
-                <p>
-                    Some more page content..
-                </p>
-
-            </div>
-
-        <span class="title title-large">Football Cards And Jerseys</span>
-           
-        <p id="morecontent">
-                My Collection
+        <div class="paragraph">
+            <p>We at Footballovers.com have one true belief. We believe in people who love sports. Since 1980, we have
+                their Dream cards, Their , career goals, and aspirations with the best companies. We are
+            <p class="orange">"Career Gurus."</p> We are <span class="orange">"People-People."</span> Let us introduce
+            you!
             </p>
-            <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Make sure all your content is above this line ↑↑↑↑↑↑↑↑↑-->
+        </div>
+
+        <h2>People</h2>
+
+        <div class="card">
+            <img src="https://m.media-amazon.com/images/I/61rXQ4dwkYL._AC_SL1087_.jpg" alt="Avatar John"
+                style="width:20%;">
+            <div class="nameplate">
+                <h4><b>Tyreek Hill</b></h4>
+                <p>WR and Chiefs player</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://m.media-amazon.com/images/I/71jvcILSUeL._AC_SY445_.jpg" alt="Avatar Jane"
+            style="width:20%;">
+            <div class="nameplate">
+                <h4><b>Ray Lewis</b></h4>
+                <p>MLB and Ravens player</p>
+            </div>
+        </div>
+        <div class="card"></div>
+        <img src="https://m.media-amazon.com/images/I/41AlrbNwWcL._SY780_.jpg"
+            alt="Avatar Linux" style="width:20%;">
+        <div class="nameplate">
+            <h4><b>Jalen Hurts</b></h4>
+            <p>QB and Eagles player</p>
+        </div>
+        </div>
+        <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Make sure all your content is above this line ↑↑↑↑↑↑↑↑↑-->
     </main>
 
     <!---------------------------------- Begin the footer ------------->
     <footer>
-        <span class="title">My Prized Cards and Jerseys</span>
+        <span class="title">Check us out on our Social</span>
         <table id="footerTable">
             <tr>
                 <td>
@@ -177,4 +167,3 @@
 </body>
 
 </html>
-
