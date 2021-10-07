@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="CSS/gallery.css">
-  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSStyle.css">
 
   <!-- JavaScript -->
   <!-- These are needed to get the responsive menu to work -->
@@ -30,8 +30,8 @@
   <!-- Custom styles for this template -->
   <style type="text/css">
     menu {
-      margin: 0;
-      padding: 0;
+      margin: 5;
+      padding: 5;
     }
 
     .wideMargin {
@@ -44,7 +44,11 @@
     }
 
     #rainbow {
-      width: 100%;
+      width: 50%;
+    }
+
+    .container:hover .flipper {
+      transform: rotateY(180deg);
     }
   </style>
 </head>
@@ -62,9 +66,9 @@
         <div class="navbar-nav">
           <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Edit These Items in your Menu ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
           <a href="index.html" class="nav-item nav-link">Home</a>
-          <a href="display.html" class="nav-item nav-link">Display</a>
-          <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
-          <a href="gallery.html" class="nav-item nav-link active">Gallery</a>
+          <a href="display.html" class="nav-item nav-link">Fav Players</a>
+          <a href="portfolio.html" class="nav-item nav-link">Cards/Jerseys</a>
+          <a href="gallery.html" class="nav-item nav-link active">Rares</a>
           <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Edit These Items in your Menu ↑↑↑↑↑↑↑↑↑↑↑↑↑↑-->
         </div>
         <div class="navbar-nav ml-auto">
@@ -77,25 +81,28 @@
 
   <main class="wideMargin">
 
-    <h1 class="text-left my-3 title" tabindex="0">Check out my favorite images</h1>
+    <h1 class="text-left my-3 title" tabindex="0">Check out the most valuble rare cards</h1>
     <!-- Edit this line for the title of your page -->
 
     <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Put your content below this line ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
-
+  
     <div id="gallery">
-      <p>Hover over the images to get the answer</p>
+      <p>Hover over the images to get the description of the rare cards</p>
+
       <div class="container">
         <div class="flipper">
           <div class="front">
-            <img src="https://www.axiomtek.com/Download/Ptype3/en-US/ATX_Motherboard.jpg" alt="ATX_Motherboard">
-            <p class="caption">Computer Part</p>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDoqvSHCtn591vGAMx6YsHBEntxXKr8S2sSg&usqp=CAU"
+              alt="Steve Young">
+            <p class="caption">Rare Football Card</p>
           </div>
           <div class="back">
-            <a href="https://en.wikipedia.org/wiki/Motherboard" target="_blank">
-              <h1>Motherboard</h1>
+            <a href="https://www.psacard.com/cardfacts/football-cards/1986-topps/steve-young-374/12747" target="blank">
+              <h1>Steve Young Card</h1>
             </a>
-            <p class="description">A motherboard (also called mainboard, main circuit board, or mobo) is the main
-              printed circuit board (PCB) in general-purpose computers and other expandable systems.</p>
+            <p class="description">This card is exspensive and rare and is priced around 300 dollars average and that
+              doesn't take into account the card number so it could go up too 1,000 dollars.</p>
           </div>
         </div>
       </div>
@@ -103,15 +110,14 @@
       <div class="container">
         <div class="flipper">
           <div class="front">
-            <img src="https://sc04.alicdn.com/kf/H2d9c1b6b8d5748efb5cc2fca2c0ae8e2U.jpg" alt="RAM Stick">
-            <p class="caption">Computer Part</p>
+           <img src="data:image/jpeg;base64,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" alt="Bo Jackson">
+            <p class="caption">Rare Football Card</p>
           </div>
           <div class="back">
-            <a href="https://en.wikipedia.org/wiki/Random-access_memory" target="_blank">
-              <h1>RAM</h1>
+            <a href="https://en.wikipedia.org/wiki/Random-access_memory" target="blank">
+              <h1>Bo Jackson Card</h1>
             </a>
-            <p class="description">Random-access memory is a form of computer memory that can be read and changed in any
-              order, typically used to store working data and machine code</p>
+            <p class="description">This is Bo Jackson a running back for the raiders rare rookie card worth over 1,500 dollars in good condition</p>
           </div>
         </div>
       </div>
@@ -119,17 +125,15 @@
       <div class="container">
         <div class="flipper">
           <div class="front">
-            <img src="https://www.notebookcheck.net/fileadmin/Notebooks/NVIDIA/Turing/nvidia_TU117_chip.jpg"
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM8w0Yy_FqBStaVD4Ilu92oZ-QZm4LK1BTIQ&usqp=CAU"
               alt="NVIDIA GPU">
-            <p class="caption">Computer Part</p>
+            <p class="caption">Rare Football Card</p>
           </div>
           <div class="back">
-            <a href="https://en.wikipedia.org/wiki/Graphics_processing_unit" target="_blank">
-              <h1>GPU</h1>
+            <a href="https://en.wikipedia.org/wiki/Graphics_processing_unit" target="blank">
+              <h1>Russel Wilson</h1>
             </a>
-            <p class="description">A graphics processing unit (GPU) is a specialized electronic circuit designed to
-              rapidly manipulate and alter memory to accelerate the creation of images in a frame buffer intended for
-              output to a display device.</p>
+            <p class="description">This is a Russel Wilson signed rookie jersey card worth 1,000 at least. </p>
           </div>
         </div>
       </div>
