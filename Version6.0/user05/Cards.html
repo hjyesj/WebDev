@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Version 6.0
+        Name:Trey
+        Date Completed: oct 15
+    -->
+
+<head>
+
+    <title>Card Galore</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="WebDev Version 4.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/cards.css">
+
+    <!-- JavaScript -->
+    <!-- These are needed to get the responsive menu to work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Custom styles for this template -->
+    <style type="text/css">
+        menu {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .wideMargin {
+            margin: 15px;
+        }
+
+
+
+        #rainbow {
+            width: 100%;
+        }
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            color: rgb(255, 255, 255);
+        }
+
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-image: url("https://www.citypng.com/public/uploads/small/31629495798lgz4nhfhd46b9lc2kxgtoruddv7pjhjufezpq83odpwxhoqgd1qaallvwzttrabe6mpk29wdyzv1stkvsfanukfqdibcgxu00pri.png");
+        }
+
+        .row>div {
+            background: rgb(0, 0, 0);
+            border: 1px solid rgb(255, 238, 0);
+        }
+
+        article a {
+            text-decoration: none;
+            color: rgb(0, 38, 255);
+            background-color: rgb(255, 255, 255);
+            border-radius: 2px;
+            padding: 2px;
+            text-align: center;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <menu>
+        <nav class="navbar navbar-expand-md navbar-light bg-primary">
+            <a href="http://shakonet.isd720.com" class="navbar-brand">WebDev</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Edit These Items in your Menu ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="jersey.html" class="nav-item nav-link active">Jerseys</a>
+                    <a href="Cards.html" class="nav-item nav-link active">Cards</a>
+                    <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Edit These Items in your Menu ↑↑↑↑↑↑↑↑↑↑↑↑↑↑-->
+                </div>
+                <div class="navbar-nav ml-auto">
+                    <a href="#" class="nav-item nav-link disabled">Login</a>
+                </div>
+            </div>
+        </nav>
+    </menu>
+    <center>
+        <h1>Cards Galore</h1>
+    </center>
+    <center>
+        <form id="form">
+            <input type="search" id="query" name="q" placeholder="Search...">
+            <button>Search</button>
+        </form>
+    </center>
+
+
+
+
+    <div class="container-fluid">
+        <!--big outside container-->
+        <div class="row">
+            <!-- 8 and 4 -->
+            <div class="col-md-12">
+                <div class="container">
+                    <div class="row">
+                        <!--Grid column-->
+                        <div class="col-md-6">
+
+                            <!-- Video -->
+                            <div class="embed-responsive embed-responsive-16by9 mb-4">
+                                <iframe class="embed-responsive-item" width="560" height="315"
+                                    src="https://www.youtube.com/embed/d4a9KApRUks" title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="embed-responsive embed-responsive-16by9 mb-4">
+                                <iframe class="embed-responsive-item" width="560" height="315"
+                                    src="https://www.youtube.com/embed/x000WihFrfA" title="youtube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-lg-2 col-md-12 mb-4">
+
+                                <!--Image-->
+                                <div class="view overlay z-depth-1-half">
+                                    <img src="https://dacardworld1.imgix.net/21panorig_3.jpg?auto=format%2Ccompress&fill=solid&fill-color=fff&fit=fill&fm=jpg&h=340&ixlib=php-3.3.0&trim=color&trimcolor=fff&w=340&s=6b8b538353fea048df95ebc26b418eca"
+                                        class="img-fluid" alt="">
+                                    <center>
+                                        <h5>Trey Lance 480$</h5>
+                                    </center>
+                                    <a href="">
+                                        <div class="mask rgba-white-light"></div>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-2 col-md-6 mb-4">
+
+                                <!--Image-->
+                                <div class="view overlay z-depth-1-half">
+                                    <img src="https://cconnect.s3.amazonaws.com/wp-content/uploads/2019/05/2019-Score-Football-Base-Patrick-Mahomes-new.jpg"
+                                        class="img-fluid" alt="">
+                                    <center>
+                                        <h5>Patrick Mahomes 40$</h5>
+                                    </center>
+                                    <a href="">
+                                        <div class="mask rgba-white-light"></div>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-lg-2 col-md-6 mb-4">
+
+                                <!--Image-->
+                                <div class="view overlay z-depth-1-half">
+                                    <img src="https://cconnect.s3.amazonaws.com/wp-content/uploads/2019/02/2019-Score-Football-Base-30th-Anniversary-Ezekiel-Elliott.jpg"
+                                        class="img-fluid" alt="">
+                                    <center>
+                                        <h5>Ezekeil Elliot 28$</h5>
+                                    </center>
+                                    <a href="">
+                                        <div class="mask rgba-white-light"></div>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-lg-2 col-md-12 mb-4">
+
+                                <!--Image-->
+                                <div class="view overlay z-depth-1-half">
+                                    <img src="https://cconnect.s3.amazonaws.com/wp-content/uploads/2018/08/2018-Donruss-Football-Base-Rated-Rookie-306-Saquon-Barkley-RC.jpg"
+                                        class="img-fluid" alt="">
+                                    <center>
+                                        <h5>Saquon Barkly 30$</h5>
+                                    </center>
+                                    <a href="">
+                                        <div class="mask rgba-white-light"></div>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-lg-2 col-md-6 mb-4">
+
+                                <!--Image-->
+                                <div class="view overlay z-depth-1-half">
+                                    <img src="https://m.media-amazon.com/images/I/61Pms-Av-LL._AC_SY445_.jpg"
+                                        class="img-fluid" alt="">
+                                    <center>
+                                        <h5>Jarod Mayo 25$</h5>
+                                    </center>
+                                    <a href="">
+                                        <div class="mask rgba-white-light"></div>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-lg-2 col-md-6 mb-4">
+
+                                <!--Image-->
+                                <div class="view overlay z-depth-1-half">
+                                    <img src="https://cconnect.s3.amazonaws.com/wp-content/uploads/2019/03/2018-Panini-Contenders-Optic-Football-Base-Season-Ticket-Red-Prizm-Dak-Prescott.jpg"
+                                        class="img-fluid" alt="">
+                                    <h5>Dak Presscott 40$</h5>
+                                    <a href="">
+                                        <div class="mask rgba-white-light"></div>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <!--Grid column-->
+
+                        </div>
+                        <!--Grid row-->
+
+                    </div>
+                    <!-- Footer Elements -->
+
+                </div>
+                <div class="col-md-0">
+                    <aside>
+                        <article>
+                            <h5>Sports card collecting is booming, but it looks a lot different than you might remember
+                            </h5>
+                            <p>
+                                The last sports card show I attended until recently happened in Augusta, Maine, around
+                                30
+                                years ago. I don’t remember the exact year. I do remember that former Red Sox pitcher
+                                Bob
+                                Stanley was friendly enough as he sat in a folding chair and signed autographs for a
+                                buck or
+                                two.
+
+
+                            </p>
+                            <a target="_blank"
+                                href="https://www.bostonglobe.com/2021/08/26/sports/sports-cards-pandemic-surge/">Read
+                                More</a>
+                        </article>
+                    </aside>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div>
+
+            <h2>Football Packs</h2>
+            <div class="container">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-lg-2 col-md-12 mb-4">
+
+                        <!--Image-->
+                        <div class="view overlay z-depth-1-half">
+                            <img src="https://m.media-amazon.com/images/I/51OvgJakUAL._AC_SX342_.jpg" class="img-fluid"
+                                alt="">
+                            <h5>Panini Prizim Pack</h5>
+                            <a href="">
+                                <div class="mask rgba-white-light"></div>
+                            </a>
+                        </div>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-2 col-md-6 mb-4">
+
+                        <!--Image-->
+                        <div class="view overlay z-depth-1-half">
+                            <img src="https://i5.walmartimages.com/asr/83d259fd-8b92-4c17-b2ae-4bd7c0af4732.6b96704a46e8ca45873d4117bd1554b2.jpeg"
+                                class="img-fluid" alt="">
+                            <h5>Press Proof Parelleles</h5>
+                            <a href="">
+                                <div class="mask rgba-white-light"></div>
+                            </a>
+                        </div>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-2 col-md-6 mb-4">
+
+                        <!--Image-->
+                        <div class="view overlay z-depth-1-half">
+                            <img src="https://target.scene7.com/is/image/Target/GUEST_7d9a8043-9650-4c49-bc4b-0573f9235471?wid=488&hei=488&fmt=pjpeg"
+                                class="img-fluid" alt="">
+                            <h5>Blaster Exsclusive Diamond Paralleles</h5>
+                            <a href="">
+                                <div class="mask rgba-white-light"></div>
+                            </a>
+                        </div>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-2 col-md-12 mb-4">
+
+                        <!--Image-->
+                        <div class="view overlay z-depth-1-half">
+                            <img src="https://i.ebayimg.com/images/g/H3gAAOSwc2pf6eFc/s-l640.jpg" class="img-fluid"
+                                alt="">
+                            <h5>Elite Cards</h5>
+                            <a href="">
+                                <div class="mask rgba-white-light"></div>
+                            </a>
+                        </div>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-2 col-md-6 mb-4">
+
+                        <!--Image-->
+                        <div class="view overlay z-depth-1-half">
+                            <img src="https://cdn.sportscollectorsdaily.com/wp-content/uploads/2021/01/25045351/2020-Panini-Contenders-Football-box.jpg"
+                                class="img-fluid" alt="">
+                            <h5>Panini Contenders pack</h5>
+                            <a href="">
+                                <div class="mask rgba-white-light"></div>
+                            </a>
+                        </div>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-2 col-md-6 mb-4">
+
+                        <!--Image-->
+                        <div class="view overlay z-depth-1-half">
+                            <img src="https://cdn11.bigcommerce.com/s-u7uyd/images/stencil/270x270/products/40599/92463/0000318794__51949.1620161075.jpg?c=2"
+                                class="img-fluid" alt="">
+                            <h5>Cronicals Pack</h5>
+                            <a href="">
+                                <div class="mask rgba-white-light"></div>
+                            </a>
+                        </div>
+
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+            </div>
+
+        </div>
+    </div>
+</body>
+<footer>
+
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+
+                <!-- Content -->
+                <h5 class="font-weight-bold text-uppercase mb-4">The End</h5>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                <!-- Links -->
+                <ul class="list-group-item-">
+                    <li>
+                        <p>
+                            <a href="#!">Sales</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a href="#!">contacts</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a href="#!">socials</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a href="#!">sponsors</a>
+                        </p>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                <!-- Contact details -->
+                <ul class="list-unstyled">
+                    <li>
+                        <p>
+                            <i class="fas fa-flag mr-3"></i>12 new
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <i class="fas fa-envelope mr-3"></i>treyboyd246@gmail.com
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <i class="fas fa-phone mr-3"></i>instagram
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <i class="fas fa-print mr-3"></i> Cards4You.com
+                        </p>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+
+
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    </div>
+
+    <a href="index.html" class="list-group-item-primary .list-group-item-action:hover">
+        <center><i class="fa fa-angle-up"></i>
+            <h5>back to the top</h5>
+        </center>
+</footer>
+
+</html>

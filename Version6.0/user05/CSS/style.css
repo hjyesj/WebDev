@@ -1,15 +1,33 @@
+#carousel-control-prev-icon {
+  color: rgb(255, 2, 2);
+}
+
+form {
+  background-color: rgb(255, 0, 0);
+  width: 260px;
+  height: 44px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .body-wideMargin {
   margin: 50px;
   font-size: 100%;
   line-height: 1.5;
   font-family: Roboto;
 }
-button{
-  padding:5px;
+
+caption {
+  color: mediumaquamarine;
+}
+
+button {
+  padding: 5px;
 }
 
 ol {
-
   list-style-type: decimal-leading-zero;
 }
 
@@ -18,16 +36,38 @@ ol ol {
 }
 
 ol li {
-
   line-height: 1.5;
 }
-
 
 h1 {
   font-family: "Fjalla One", sans-serif;
   font-size: 2em;
   text-transform: uppercase;
   font-weight: 400;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(255, 0, 0);
   margin-bottom: 1em;
+}
+
+h2 {
+  color: crimson;
+}
+
+h5 {
+  color: rgb(0, 0, 0);
+}
+
+a {
+  color: rgb(0, 0, 0);
+}
+
+i {
+  color: rgb(0, 0, 0);
+}
+
+li {
+  color: rgb(0, 0, 0);
+}
+
+footer {
+  background-color: rgb(255, 0, 0);
 }

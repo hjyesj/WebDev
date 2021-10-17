@@ -1,0 +1,562 @@
+<head>
+   <title>Jersey Galore</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <!-- Bootstrap meta data -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="carousel example">
+
+    <!-- CSS -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!-- Custom -->
+    <link rel="stylesheet" href="CSS/jersey.css">
+
+    <!-- JavaScript -->
+    <!-- These are needed to get the responsive menu to work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <style>
+        .table-striped tbody tr:nth-of-type(odd) {
+            background-color: rgb(12, 184, 169);
+        }
+
+        .demo-content {
+            padding: 15px;
+            font-size: 18px;
+            background: #6140af;
+            margin-bottom: 15px;
+        }
+
+        .demo-content.bg-alt {
+            background: #0077ff;
+        }
+
+        .bs-example {
+            margin: 30px;
+        }
+
+        h1 {
+            color: rgb(0, 110, 255);
+        }
+
+        .row>div {
+            background: rgb(0, 0, 0);
+            border: 1px solid rgb(0, 110, 255);
+        }
+        menu {
+            max-width: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <menu>
+        <nav class="navbar navbar-expand-md navbar-light bg-primary">
+            <a href="http://shakonet.isd720.com" class="navbar-brand">WebDev</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Edit These Items in your Menu ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="jersey.html" class="nav-item nav-link active">Jerseys</a>
+                    <a href="Cards.html" class="nav-item nav-link active">Cards</a>
+                    <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Edit These Items in your Menu ↑↑↑↑↑↑↑↑↑↑↑↑↑↑-->
+                </div>
+                <div class="navbar-nav ml-auto">
+                    <a href="#" class="nav-item nav-link active">Login</a>
+                </div>
+            </div>
+        </nav>
+    </menu>
+    <center>
+        <h1>Jersey Galore</h1>
+    </center>
+    <h3>Old Jerseys</h3>
+    <center>
+        <form id="form">
+            <input type="search" id="query" name="q" placeholder="Search...">
+            <button>Search</button>
+    </center>
+    <div>
+
+        <div class="container">
+
+            <!--Grid row-->
+            <div class="row">
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-12 mb-4">
+
+                    <!--Image-->
+                    <div class="view overlay z-depth-1-half">
+                        <img src="https://i.pinimg.com/originals/75/98/86/75988612d45bd2531594bc4effb78615.jpg"
+                            class="img-fluid" alt="">
+                        <center>
+                            <h5>Brett Farve 60$</h5>
+                        </center>
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-6 mb-4">
+
+                    <!--Image-->
+
+                    <div class="view overlay z-depth-1-half">
+                        <img src="https://i2.wp.com/sportleaguemaps.com/wp-content/uploads/Arizona-Cardinals-Pat-Tillman-Throwback-Jersey.png?fit=340%2C340&ssl=1"
+                            class="img-fluid" alt="">
+                        <center>
+                            <h5>Pat Tillman 60$</h5>
+                        </center>
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-6 mb-4">
+
+                    <!--Image-->
+                    <div class="view overlay z-depth-1-half">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjnuqaY2bBEMHMw2xENMJR-vRkoaRmPqeBIQ&usqp=CAU"
+                            class="img-fluid" alt="">
+                        <center>
+                            <h5>John Elway 60$</h5>
+                        </center>
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-12 mb-4">
+
+                    <!--Image-->
+                    <div class="view overlay z-depth-1-half">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIg-VjZ3DWjdkIX_Ys1xSbluLb7lPJMi3Law&usqp=CAU"
+                            class="img-fluid" alt="">
+                        <center>
+                            <h5>Tony Gonzalez 60$</h5>
+                        </center>
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-6 mb-4">
+
+                    <!--Image-->
+                    <div class="view overlay z-depth-1-half">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo_0vhMUmNnFRq3LE14-sd4dPwVmLHeya17Q&usqp=CAU"
+                            class="img-fluid" alt="">
+                        <center>
+                            <h5>Joe Montana 60$</h5>
+                        </center>
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-6 mb-4">
+
+                    <!--Image-->
+                    <div class="view overlay z-depth-1-half">
+                        <img src="data:image/jpeg;base64,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"
+                            class="img-fluid" alt="">
+                        <center>
+                            <h5>Eric Berry 60$</h5>
+                        </center>
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+
+        </div>
+        <!-- Footer Elements -->
+
+        <!-- Copyright -->
+
+    </div>
+   
+    <div>
+        <h3>Rookie Jerseys</h3>
+        <!-- Footer Elements -->
+        <div class="container">
+
+            <!--Grid row-->
+            <div class="row">
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-12 mb-4">
+
+                    <!--Image-->
+                    <div class="view overlay z-depth-1-half">
+                        <img src="https://fanatics.frgimages.com/FFImage/thumb.aspx?i=/productimages/_4321000/ff_4321444-3fa979be2241422304c0_full.jpg&w=340"
+                            class="img-fluid" alt="">
+                        <center>
+                            <h5>Trevor Lawrence 60$</h5>
+                        </center>
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-6 mb-4">
+
+                    <!--Image-->
+                    <div class="view overlay z-depth-1-half">
+                        <img src="https://fanatics.frgimages.com/FFImage/thumb.aspx?i=/productimages/_4455000/ff_4455698-783a40104060587e95b5_full.jpg&w=340"
+                            class="img-fluid" alt="">
+                        <center>
+                            <h5>Mac Jones 60$</h5>
+                        </center>
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-6 mb-4">
+
+                    <!--Image-->
+                    <div class="view overlay z-depth-1-half">
+                        <img src="https://fanatics.frgimages.com/FFImage/thumb.aspx?i=/productimages/_4301000/ff_4301191-0f106d47f2aa9fd4dacf_full.jpg&w=340"
+                            class="img-fluid" alt="">
+                        <center>
+                            <h5>Trey Lance 60$</h5>
+                        </center>
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-12 mb-4">
+
+                    <!--Image-->
+                    <div class="view overlay z-depth-1-half">
+                        <img src="https://images.footballfanatics.com/FFImage/thumb.aspx?i=/productimages/_4324000/ff_4324393-0a8bbe5c73ad197b8bdf_full.jpg&w=340"
+                            class="img-fluid" alt="">
+                        <center>
+                            <h5>Justin Feilds 60$</h5>
+                        </center>
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-6 mb-4">
+
+                    <!--Image-->
+                    <div class="view overlay z-depth-1-half">
+                        <img src="https://fanatics.frgimages.com/FFImage/thumb.aspx?i=/productimages/_3911000/ff_3911842-334292c84f6c81f083cb_full.jpg&w=340"
+                            class="img-fluid" alt="">
+                        <center>
+                            <h5>Justin Herbert 60$</h5>
+                        </center>
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-6 mb-4">
+
+                    <!--Image-->
+                    <div class="view overlay z-depth-1-half">
+                        <img src="https://fanatics.frgimages.com/FFImage/thumb.aspx?i=/productimages/_4301000/ff_4301663-aa38bb63a863b576d64c_full.jpg&w=340"
+                            class="img-fluid" alt="">
+                        <center>
+                            <h5>Micah Parsons 60$</h5>
+                        </center>
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+
+        </div>
+        <!-- Footer Elements -->
+
+        <!-- Copyright -->
+    </div>
+    <!-- Copyright -->
+
+    </div>
+    <!-- Footer -->
+    <div>
+
+       <h3>Custome Jerseys</h3>
+        <div class="container">
+
+            <!--Grid row-->
+            <div class="row">
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-12 mb-4">
+
+                    <!--Image-->
+                    <div class="view overlay z-depth-1-half">
+                        <img src="https://images.footballfanatics.com/atlanta-falcons/atlanta-falcons-nike-game-alternate-jersey-gym-custom-mens_ss4_p-12002019+u-zzsuxrdv4lpfdfac4rz7+v-fbd380a7ce6648178331cdd474b26658.jpg?_hv=1&w=340"
+                            class="img-fluid" alt="">
+                        <Center>
+                            <h5>Falcons custom 60$</h5>
+                        </Center>
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-6 mb-4">
+
+                    <!--Image-->
+                    <div class="view overlay z-depth-1-half">
+                        <img src="https://fanatics.frgimages.com/FFImage/thumb.aspx?i=/productimages/_4347000/ff_4347565-7da5f75e0fb0fb8f228b_full.jpg&w=340"
+                            class="img-fluid" alt="">
+                        <center>
+                            <h5>Bengals jersey 60$</h5>
+                        </center>
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-6 mb-4">
+
+                    <!--Image-->
+                    <div class="view overlay z-depth-1-half">
+                        <img src="https://images.footballfanatics.com/minnesota-vikings/minnesota-vikings-nike-game-jersey-court-purple-custom-mens_ss4_p-11835646+u-p53477tql4pkxku7muds+v-54df208ef7404feb85bfec4ecf29b5db.jpg?_hv=1&w=340"
+                            class="img-fluid" alt="">
+                            <h5>Vikings Jersey 60$</h5>
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-12 mb-4">
+
+                    <!--Image-->
+                    <div class="view overlay z-depth-1-half">
+                        <img src="https://fanatics.frgimages.com/FFImage/thumb.aspx?i=/productimages/_1600000/ff_1600580_full.jpg&w=340"
+                            class="img-fluid" alt="">
+                            <h5>Cowboys Jersey 60$</h5>
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-6 mb-4">
+
+                    <!--Image-->
+                    <div class="view overlay z-depth-1-half">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThweS8nF8n0X5N7mOBK3kmRSZpyqDllYYoPA&usqp=CAU"
+                            class="img-fluid" alt="">
+                            <h5>Jets Jersey 60$</h5>
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-6 mb-4">
+
+                    <!--Image-->
+                    <div class="view overlay z-depth-1-half">
+                        <img src="https://images.footballfanatics.com/cleveland-browns/cleveland-browns-nike-game-road-jersey-white-custom-mens_ss4_p-12003832+u-1exidilg27ovb8amb0ic+v-6e7967286ab44b48acc4d4f975c1b33f.jpg?_hv=1&w=340"
+                            class="img-fluid" alt="">
+                            <h5>Browns Jersey 60$</h5>
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+
+        </div>
+
+    </div>
+
+</body>
+<footer>
+
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+
+                <!-- Content -->
+                <h5 class="font-weight-bold text-uppercase mb-4">The End</h5>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                <!-- Links -->
+                <ul class="list-group-item-">
+                    <li>
+                        <p>
+                            <a href="#!">Sales</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a href="#!">contacts</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a href="#!">socials</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a href="#!">sponsors</a>
+                        </p>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                <!-- Contact details -->
+                 <ul class="list-styled">
+                    <li>
+                        <p>
+                            <i class="fas fa-flag mr-3"></i>12 new
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <i class="fas fa-envelope mr-3"></i>treyboyd246@gmail.com
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <i class="fas fa-phone mr-3"></i>instagram
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <i class="fas fa-print mr-3"></i> Cards4You.com
+                        </p>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+            
+               
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div 
+       class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    </div>
+
+    <a href="Jersey.html" class="list-group-item-primary .list-group-item-action:hover">
+        <center><i class="fa fa-angle-up"></i> <h5>back to the top</h5></center>
+</footer>
